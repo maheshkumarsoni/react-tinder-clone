@@ -11,11 +11,11 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route path="/chats/:person">
-            <Header backButton="/chats" />
+          <Route path="/chat/:person">
+            <Header backButton="/chat" />
             <ChatScreen />
           </Route>
-          <Route path="/chats">
+          <Route path="/chat">
             <Header backButton="/" />
             <Chats />
           </Route>
