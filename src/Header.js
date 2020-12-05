@@ -26,7 +26,7 @@ function Header({ backButton }) {
                     alt=""
                 />
             </Link>
-            <Link to="/chats">
+            <Link to="/chat">
                 <IconButton>
                     <ForumIcon fontSize="large" className="header__icon" />
                 </IconButton>
